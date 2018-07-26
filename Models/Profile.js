@@ -60,7 +60,7 @@ const ProfileSchema = new Schema({
         default: false
       },
       description: {
-        tyoe: String
+        type: String
       }
     }
   ],
