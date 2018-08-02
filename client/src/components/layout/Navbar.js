@@ -6,7 +6,7 @@ class Navbar extends Component {
     return (
       <nav className="navbar navbar-expand-sm navbar-dark bg-dark mb-4">
         <div className="container">
-          <Link clLinkssName="navbar-brand" to="/">
+          <Link className="navbar-brand" to="/">
             Pi Sigma Organization
           </Link>
           <button
@@ -30,7 +30,7 @@ class Navbar extends Component {
 
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <Link className="nav-link" to="/reguster">
+                <Link className="nav-link" to="/register">
                   Sign Up
                 </Link>
               </li>
