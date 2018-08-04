@@ -12,7 +12,7 @@ class Landing extends Component {
                 <h1 className="display-3 mb-4 text-info">
                   Pi Sigma Organization
                 </h1>
-                <p className="lead"> What do YOU want to do</p>
+                <h2 className="text-muted"> What do YOU want to do?</h2>
                 <hr />
                 <Link to="/register" className="btn btn-lg btn-info mr-2">
                   Sign Up
