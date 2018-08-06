@@ -11,8 +11,6 @@ import Login from "./components/auth/Login";
 
 import "./App.css";
 
-const store = createStore(() => [], {}, applyMiddleware());
-
 class App extends Component {
   render() {
     return (
