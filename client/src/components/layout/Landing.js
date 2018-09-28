@@ -17,10 +17,8 @@ class Landing extends Component {
           <div className="container">
             <div className="row">
               <div className="col-md-12 text-center">
-                <h1 className="display-3 mb-4 text-info">
-                  Pi Sigma Organization
-                </h1>
-                <h2 className="text-muted"> What do YOU want to do?</h2>
+                <h1 className="display-3 mb-4 text-info">ConnectMe</h1>
+                <h2 className="text-muted">Signup for a free account today!</h2>
                 <hr />
                 <Link to="/register" className="btn btn-lg btn-info mr-2">
                   Sign Up
